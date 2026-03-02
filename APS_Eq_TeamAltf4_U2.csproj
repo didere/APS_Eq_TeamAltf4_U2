@@ -44,8 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EjecutoresEjercicios\RunnerEjercicio_ParImpar.cs" />
+    <Compile Include="EjecutoresEjercicios\RunnerIntercambio_xy.cs" />
     <Compile Include="EjecutoresEjercicios\RunnerSumaAB.cs" />
     <Compile Include="Ejercicio.cs" />
+    <Compile Include="HandlersEjerciciosBasicos\Ejercicio_ Intercambiar_xy.cs" />
     <Compile Include="HandlersEjerciciosBasicos\Ejercicio_ParImpar.cs" />
     <Compile Include="HandlersEjerciciosBasicos\Ejercicio_SumaAB.cs" />
     <Compile Include="Program.cs" />
