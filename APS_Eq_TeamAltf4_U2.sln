@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APS_Eq_TeamAltf4_U2", "APS_Eq_TeamAltf4_U2.csproj", "{15CBBDD5-F888-4A68-9479-14E0651CD4F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15CBBDD5-F888-4A68-9479-14E0651CD4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CBBDD5-F888-4A68-9479-14E0651CD4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CBBDD5-F888-4A68-9479-14E0651CD4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CBBDD5-F888-4A68-9479-14E0651CD4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E99160D-2C25-45BC-A6C8-3129F7EA5F6F}
+	EndGlobalSection
+EndGlobal
