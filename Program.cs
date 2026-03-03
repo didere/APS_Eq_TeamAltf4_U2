@@ -13,6 +13,9 @@ namespace APS_Eq_TeamAltf4_U2
             Console.WriteLine("1. Par-Impar");
             Console.WriteLine("2. Suma AB");
             Console.WriteLine("3. Intercambio XY");
+            Console.WriteLine("4. Mayor de edad");
+            Console.WriteLine("5. Número Mayor");
+            Console.WriteLine("6. Multiplicacion AB");
             Console.WriteLine("------------------------");
             Console.WriteLine("Ingrese el número del ejercicio que desea ejecutar:");
 
@@ -29,6 +32,15 @@ namespace APS_Eq_TeamAltf4_U2
                     break;
                 case 3:
                     new RunnerIntercambio_xy();
+                    break;
+                case 4:
+                    new RunnerEsMayorDeEdad();
+                    break;
+                case 5:
+                    new RunnerEjercicioNumeroMayor();
+                    break;
+                case 6:
+                    new RunnerMultiplicacionAB();
                     break;
             }
         }
