@@ -42,6 +42,9 @@ namespace APS_Eq_TeamAltf4_U2
                 case 6:
                     new RunnerMultiplicacionAB();
                     break;
+                case 7:
+                    new RunnerEjercicioSumaABGenerico();
+                    break;
             }
         }
     }

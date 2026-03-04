@@ -44,12 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EjecutoresEjercicios\RunnerEjercicioNumeroMayor.cs" />
+    <Compile Include="EjecutoresEjercicios\RunnerEjercicioSumaABGenerico.cs" />
     <Compile Include="EjecutoresEjercicios\RunnerEjercicio_ParImpar.cs" />
     <Compile Include="EjecutoresEjercicios\RunnerEsMayorDeEdad.cs" />
     <Compile Include="EjecutoresEjercicios\RunnerIntercambio_xy.cs" />
     <Compile Include="EjecutoresEjercicios\RunnerMultiplicacionAB.cs" />
     <Compile Include="EjecutoresEjercicios\RunnerSumaAB.cs" />
     <Compile Include="Ejercicio.cs" />
+    <Compile Include="HandlersEjerciciosBasicos\EjercicioSumaAB_Genericos.cs" />
     <Compile Include="HandlersEjerciciosBasicos\Ejercicio_ Intercambiar_xy.cs" />
     <Compile Include="HandlersEjerciciosBasicos\Ejercicio_CompruebaMayoriaEdad.cs" />
     <Compile Include="HandlersEjerciciosBasicos\Ejercicio_MultiplicacionAB.cs" />
