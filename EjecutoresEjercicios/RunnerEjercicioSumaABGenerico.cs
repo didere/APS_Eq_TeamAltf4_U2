@@ -11,16 +11,14 @@ namespace APS_Eq_TeamAltf4_U2.EjecutoresEjercicios
     {
         public RunnerEjercicioSumaABGenerico()
         {
-            int a, b;
+            double a, b;
             Console.WriteLine("Dame el valor de a: ");
-            a = int.Parse(Console.ReadLine());
+            a = double.Parse(Console.ReadLine());
             Console.WriteLine("Dame el valor de b: ");
-            b = int.Parse(Console.ReadLine());
-
+            b = double.Parse(Console.ReadLine());
             Ejercicio ejercicio;
-            ejercicio = new EjercicioSumaAB_Genericos<int>(a, b);
+            ejercicio = new EjercicioSumaAB_Genericos<double>(a, b);
             ejercicio.Ejecutar();
-
         }
     }
 }

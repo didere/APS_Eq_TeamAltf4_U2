@@ -16,6 +16,8 @@ namespace APS_Eq_TeamAltf4_U2
             Console.WriteLine("4. Mayor de edad");
             Console.WriteLine("5. Número Mayor");
             Console.WriteLine("6. Multiplicacion AB");
+            Console.WriteLine("7. Suma con datos Genericos");
+            Console.WriteLine("8. Simulacion de un ATM");
             Console.WriteLine("------------------------");
             Console.WriteLine("Ingrese el número del ejercicio que desea ejecutar:");
 
@@ -44,6 +46,9 @@ namespace APS_Eq_TeamAltf4_U2
                     break;
                 case 7:
                     new RunnerEjercicioSumaABGenerico();
+                    break;
+                case 8:
+                    new RunnerATM();
                     break;
             }
         }
