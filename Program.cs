@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq.Expressions;
 using APS_Eq_TeamAltf4_U2.EjecutoresEjercicios;
 
 namespace APS_Eq_TeamAltf4_U2
@@ -49,6 +50,12 @@ namespace APS_Eq_TeamAltf4_U2
                     break;
                 case 8:
                     new RunnerATM();
+                    break;
+                case 9:
+                    new RunnerEjercicioIMC();
+                    break;
+                case 10:
+                    new RunnerDistanciaEntreDosPuntos();
                     break;
             }
         }

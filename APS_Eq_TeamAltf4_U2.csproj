@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EjecutoresEjercicios\RunnerDistanciaEntreDosPuntos.cs" />
+    <Compile Include="HandlersEjerciciosBasicos\Ejercicio_DistanciaEntreDosPuntos.cs" />
+    <Compile Include="Auxiliar\Punto.cs" />
     <Compile Include="EjecutoresEjercicios\RunnerATM.cs" />
+    <Compile Include="EjecutoresEjercicios\RunnerEjercicioIMC.cs" />
     <Compile Include="EjecutoresEjercicios\RunnerEjercicioNumeroMayor.cs" />
     <Compile Include="EjecutoresEjercicios\RunnerEjercicioSumaABGenerico.cs" />
     <Compile Include="EjecutoresEjercicios\RunnerEjercicio_ParImpar.cs" />
@@ -56,6 +60,7 @@
     <Compile Include="HandlersEjerciciosBasicos\Ejercicio_ Intercambiar_xy.cs" />
     <Compile Include="HandlersEjerciciosBasicos\Ejercicio_ATM.cs" />
     <Compile Include="HandlersEjerciciosBasicos\Ejercicio_CompruebaMayoriaEdad.cs" />
+    <Compile Include="HandlersEjerciciosBasicos\Ejercicio_IMC.cs" />
     <Compile Include="HandlersEjerciciosBasicos\Ejercicio_MultiplicacionAB.cs" />
     <Compile Include="HandlersEjerciciosBasicos\Ejercicio_NumeroMayor.cs" />
     <Compile Include="HandlersEjerciciosBasicos\Ejercicio_ParImpar.cs" />
